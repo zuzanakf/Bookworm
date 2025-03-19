@@ -28,7 +28,7 @@ struct PushButton:View {
 }
     
     // @binding allowing two views to share a value type state eg a boolean
-struct ContentView: View {
+struct LearnView: View {
         
         @State private var rememberMe = false
         var body: some View {
@@ -41,5 +41,5 @@ struct ContentView: View {
     }
 
 #Preview {
-    ContentView()
+    LearnView()
 }

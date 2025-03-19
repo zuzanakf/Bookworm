@@ -10,7 +10,7 @@ import SwiftData
 
 // same as @ observable for for swift data instead
 @Model
-class Student {
+class StudentExample {
     var id: UUID
     var name: String
     
