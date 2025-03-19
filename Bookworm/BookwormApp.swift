@@ -17,6 +17,7 @@ struct BookwormApp: App {
         // modifier telling swift to make student data availible to whole app
         // first time it runs creates swift data file and in future runs will just load, modelcontainer just tells us where to store data
         // model context - temporary pool of data so we dontcontantly read and write, all apps need it - model container creates this automatically
-        .modelContainer(for: Student.self)
+        // for example use .modelContainer(for: Student.self)
+        .modelContainer(for: Book.self)
     }
 }

@@ -7,7 +7,7 @@
 import SwiftData
 import SwiftUI
 
-struct ContentView: View {
+struct ExampleView: View {
     // read out the live in memory data we are working with right now (model context)
     @Environment(\.modelContext) var modelContext
     // query makes swift data load studnets from modelcontainer, finds main context (made my model container in App) , quries and finds it
@@ -38,5 +38,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ExampleView()
 }
